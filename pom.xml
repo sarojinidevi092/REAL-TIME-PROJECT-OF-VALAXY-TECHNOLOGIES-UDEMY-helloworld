@@ -22,6 +22,11 @@
   </modules>
 
   <distributionManagement>
+           <repository>
+                    <id>deployment</id>
+                    <name>Internal Snapshots</name>
+                    <url>http://34.238.154.91:8081/repository/maven_snapshot/</url>
+                    </snapshotRepository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
